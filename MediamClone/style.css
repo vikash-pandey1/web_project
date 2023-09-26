@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.container{
+    background-color: rgb(97, 80, 80);
+    height: 500px;
+    width: 100vw;
+}
+.navbar{
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.right-nav{
+    flex-basis: 730px;
+}
+.right-nav ul{
+    justify-content: end;
+    gap: 40px;
+    list-style: none;
+
+}
+.right-nav ul li{
+    display: inline-block;
+    color: white;
+}

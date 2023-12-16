@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(162, 115, 14);
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid rgb(246, 92, 92);
+    position: fixed;
+    width: 1500px;
+}
+
+.footer img {
+    height: 180px;
+    width: 180px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.option {
+    display: flex;
+    margin-right: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+
+}
+
+.option a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+/* .btn{
+    height: 43px;
+    width: 103px;
+    background-color: black;
+    border-radius: 20px;
+} */
+
+/* container */
+.container-fluid {
+    display: flex;
+    background-color: rgb(162, 115, 14);
+}
+
+.left {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 400px;
+}
+
+.left h1 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 5em;
+    color: white;
+}
+
+.left p {
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    color: white;
+}
+
+#btn {
+    font-size: 1.2em;
+    border-radius: 20px;
+}
+.second-div{
+    background-color: rgb(237, 227, 227);
+    /* margin-right: 50px; */
+}
+.trend{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(20, 9, 9);
+    padding: 30px;
+}
+
+.container-trend {
+    /* z-index: -1; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px 10px;
+    justify-items: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.item {
+    display: flex;
+    color: rgb(23, 11, 11);
+}
+
+/* main-container */
+.last {
+    display: flex;
+    justify-content: center;
+}
+.container-main{
+    background-color: rgb(237, 222, 222);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.container-main .slider{
+    overflow: scroll;
+}
+.content-div{
+    color: rgb(15, 10, 10);
+    display: flex;
+    /* cursor: pointer; */
+}
+.content-div div{
+    cursor: pointer;
+}
+.content-div a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.content-img img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+.right-div{
+    /* position: sticky; */
+}
+
+.upper{
+    border-bottom: 1px solid white;
+}
+.upper h4,technology{
+    color: white;
+}
+
+.technology{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px 10px;
+}
+.anch{
+    margin: 20px 0px;
+}
+.upper a{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(12, 20, 12);
+    text-decoration: none;
+}
+
+
+.lower{
+    margin: 20px 0px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(6,1fr);
+    gap: 5px 2px;
+
+}
+.lower a{
+    /* margin-top: 30px; */
+    color: rgb(7, 17, 7);
+    text-decoration: none;
+}
+

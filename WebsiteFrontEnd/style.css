@@ -58,6 +58,7 @@ ul {
     max-width: 1180px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
+    overflow: hidden;
 }
 
 .flex {
@@ -135,6 +136,9 @@ ul {
 
 .nav-links {
     flex-basis: 730px;
+}
+.nav-toggle{
+    display: none;
 }
 
 /* header section*/
@@ -279,6 +283,7 @@ header {
 .examples-area{
     margin-block: 30px ;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .cta-section-container{

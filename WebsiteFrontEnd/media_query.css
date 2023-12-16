@@ -1,0 +1,15 @@
+@media screen and (max-width:992) {
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .examples-area{
+        gap: 20px;
+    }
+    .example-card{
+        width: 50%;
+    }
+}

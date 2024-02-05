@@ -137,7 +137,8 @@ ul {
 .nav-links {
     flex-basis: 730px;
 }
-.nav-toggle{
+
+.nav-toggle {
     display: none;
 }
 
@@ -218,7 +219,8 @@ header {
     text-align: center;
 
 }
-.features-card img{
+
+.features-card img {
     width: 60px;
 
 }
@@ -256,19 +258,23 @@ header {
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/asset\ 39.jpeg);
     background-size: cover;
 }
-.example-card:hover{
+
+.example-card:hover {
     box-shadow: 0 0 10px #888;
     transition: 0.2s ease-out;
 }
-.example-card:nth-child(2){
+
+.example-card:nth-child(2) {
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/asset\ 38.jpeg);
     background-size: cover;
 }
-.example-card:nth-child(3){
+
+.example-card:nth-child(3) {
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/asset\ 37.jpeg);
     background-size: cover;
 }
-.example-card:nth-child(4){
+
+.example-card:nth-child(4) {
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/asset\ 36.jpeg);
     background-size: cover;
 }
@@ -280,52 +286,67 @@ header {
     right: 20px;
     color: white;
 }
-.examples-area{
-    margin-block: 30px ;
+
+.examples-area {
+    margin-block: 30px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.cta-section-container{
+.cta-section-container {
     flex-direction: column;
     gap: 30px;
     color: white;
-    
+
 }
-.cta-section{
+
+.cta-section {
     background-color: #183b54;
     padding: 120px var(--padding-inline-section) 80px;
 
 }
-.cta-section-container p{
+
+.cta-section-container p {
     color: white;
     margin-top: 20px;
 }
 
 /* footer */
 
-footer{
-    padding-block: 80px ;
+footer {
+    padding-block: 80px;
     background-color: #ebf2fa;
 }
-.link-column{
+
+.link-column {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
 
 }
-.footer-container{
+
+.footer-container {
     align-items: flex-start;
     justify-content: space-around;
 }
 
 /* sub-footer */
-.subfooter{
+.subfooter {
     background-color: #b9cde4;
     padding: var(--padding-inline-section);
 }
-.subfooter-container{
+
+.subfooter-container {
     justify-content: center;
     gap: 30px;
 
+}
+
+#preloader {
+    background: #000 url(Iphone-spinner-2.gif) no-repeat center center;
+    background-size: 10%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }
